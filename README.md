@@ -28,10 +28,12 @@
 
 ## Ejecución
 1.  Ejecutar el notebook `preprocesamiento.ipynb` 
-Este scrip importa el conjunto de datasets (8 archivos csv), genera un preprocesamiento para cada archivo y luego los une en un DataFrame y los guarda en un csv `dataprefinal.csv`.
+Este script importa el conjunto de datasets (8 archivos csv), genera un preprocesamiento para cada archivo y luego los une en un DataFrame y los guarda en un csv `dataprefinal.csv`.
 
 2. Ejecutar el notebook `procesamiento.ipynb` 
-Este scrip hace un procesamiento al DataFrame final, además de entrenar y validar mediante un XGBoost a nuestros datos para luego exportarnos un archivo csv en un formato listo para subir a Kaggle.
+Este script hace un procesamiento al DataFrame final, transformando columnas cualitativas mediante target encoding, transformando columnas de fecha, escalando las variables y dropeando las columnas que no seran utilizadas. 
+1. Ejecutamos el notebook `tunning_fit_export.ipynb`
+Este script hace una búsqueda de hiperparámetros, evaluando el AUC y exporta el resultado en un csv en un formato listo para subir a Kaggle. 
 
 ## Referencias
 1.  Algoritmo  [XGBoost](https://github.com/PacktPublishing/Hands-On-Gradient-Boosting-with-XGBoost-and-Scikit-learn "XGBoost") y [documentación](https://xgboost.readthedocs.io/en/stable/ "documentación").
