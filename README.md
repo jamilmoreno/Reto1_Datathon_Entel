@@ -37,4 +37,4 @@ Este script hace una búsqueda de hiperparámetros, evaluando el AUC y exporta e
 
 ## Referencias
 1.  Algoritmo  [XGBoost](https://github.com/PacktPublishing/Hands-On-Gradient-Boosting-with-XGBoost-and-Scikit-learn "XGBoost") y [documentación](https://xgboost.readthedocs.io/en/stable/ "documentación").
-1. Algoritmo [H2O](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html "H2O").
+1. Framework [H2O](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html "H2O").
