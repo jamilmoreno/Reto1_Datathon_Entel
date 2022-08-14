@@ -35,6 +35,12 @@ Este script hace un procesamiento al DataFrame final, transformando columnas cua
 1. Ejecutamos el notebook `tunning_fit_export.ipynb`
 Este script hace una búsqueda de hiperparámetros, evaluando el AUC y exporta el resultado en un csv en un formato listo para subir a Kaggle. 
 
+*Observación: Se carga los archivos `Modelo (1).csv` y  `Prueba (1).csv`, debido a que en el proceso de target encoding no se establecio una semilla para poder replicar los resultados del mejor modelo obtenido.
+
+
+
 ## Referencias
 1.  Algoritmo  [XGBoost](https://github.com/PacktPublishing/Hands-On-Gradient-Boosting-with-XGBoost-and-Scikit-learn "XGBoost") y [documentación](https://xgboost.readthedocs.io/en/stable/ "documentación").
 1. Framework [H2O](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html "H2O").
+
+
