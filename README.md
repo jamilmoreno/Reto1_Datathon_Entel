@@ -37,7 +37,7 @@ Este script hace una búsqueda de hiperparámetros, evaluando el AUC y exporta e
 
 *Observación: Se carga los archivos `Modelo (1).csv` y  `Prueba (1).csv`, debido a que en el proceso de target encoding no se establecio una semilla para poder replicar los resultados del mejor modelo obtenido.
 
-
+Para acceder al modelo (json) y archivos csv necesarios, click [aquí.](https://drive.google.com/drive/folders/11_mh0p9ACvEhwwbliPB7DiVUUnYDi7zA?usp=sharing "aquí.")
 
 ## Referencias
 1.  Algoritmo  [XGBoost](https://github.com/PacktPublishing/Hands-On-Gradient-Boosting-with-XGBoost-and-Scikit-learn "XGBoost") y [documentación](https://xgboost.readthedocs.io/en/stable/ "documentación").
